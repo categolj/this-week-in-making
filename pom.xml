@@ -156,15 +156,15 @@
 				<groupId>io.codearte.accurest</groupId>
 				<artifactId>accurest-maven-plugin</artifactId>
 				<version>0.6.7</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>convert</goal>
-							<goal>generateStubs</goal>
-							<goal>generateTests</goal>
-						</goals>
-					</execution>
-				</executions>
+				<!--<executions>-->
+					<!--<execution>-->
+						<!--<goals>-->
+							<!--<goal>convert</goal>-->
+							<!--<goal>generateStubs</goal>-->
+							<!--<goal>generateTests</goal>-->
+						<!--</goals>-->
+					<!--</execution>-->
+				<!--</executions>-->
 				<configuration>
 					<contractsDirectory>src/test/resources/accurest</contractsDirectory>
 					<baseClassForTests>am.ik.blog.api.MvcTest</baseClassForTests>

@@ -12,3 +12,4 @@ applications:
       - p-eureka-service
       - p-hystrix-dashboard-service
       - this-week-in-making-es
+      - blog-shared-redis
